@@ -1,0 +1,282 @@
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+
+}
+
+.button {
+    padding: 16px 20px;
+    border-radius: 5px;
+    background-color: #ff5959;
+    color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
+    font-size: 20px;
+    border: 0;    
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+#banner-container {
+    text-align: center;
+    background-image: url(images/bg/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(255, 255, 255, 1);
+    padding: 150px;
+    box-shadow: inset 0px -200px 150px rgb(0 0 0 / 90%);
+}
+
+#banner-container h1 {
+    font-size: 65px;
+    width: 650px;
+    margin: 0 auto 20px auto;
+}
+
+#banner-container p {
+    font-size: 18px;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+
+
+#fund-raise {
+    padding: 120px 0 0 0;
+    text-align: center;
+}
+
+#fund-raise h2 {
+    font-size: 48px;
+    margin: 0 0 20px 0;
+}
+
+#fund-raise p {
+    font-size: 18px;
+    color: #707070;
+    margin: 0 auto 50px auto;
+    width: 50%;
+}
+
+#fund-price-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#fund-price-container input[type=radio] {
+    display: none;
+}
+
+.fund-price {
+    font-size: 30px;
+    font-weight: 700;
+    color: #707070;
+    line-height: 125px;
+    vertical-align: middle;
+    height: 125px;
+    width: 135px;
+    background-color: #fafafa;
+    margin: 10px;
+    box-sizing: content-box;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+#fund-price-container  input[type="radio"]:checked+label{ 
+    border: 2px solid #FF5959;
+    color: #FF5959;
+    background-color: #FFEEEE;
+    
+} 
+
+#other-amount {
+    border: 0;
+    border-bottom: 1px solid #dadada;
+    color: #b3b3b3;
+    font-size: 18px;
+    padding: 15px;
+    width: 765px;
+    text-align: center;
+    outline: none;
+    margin-bottom: 40px;
+}
+
+
+
+
+#fund-plan {
+    padding: 120px 0 0 0;
+    text-align: center;
+}
+
+#fund-plan h2 {
+    font-size: 48px;
+    margin: 0 0 20px 0;
+}
+
+#fund-plan .description {
+    font-size: 18px;
+    color: #707070;
+    margin: 0 auto 50px auto;
+    width: 50%;
+}
+
+
+#fund-plan #plan-card-container {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    margin: 0 auto;    
+}
+
+#plan-card-container .plan-card {
+    padding: 65px 22px 55px 22px;
+    background-color: moccasin;
+    margin: 18px;
+    text-align: left;
+    border-radius: 5px;
+    flex: 1;
+}
+
+#plan-card-container .plan-icon {
+    margin: 0 0 30px 0;
+}
+
+#plan-card-container .plan-title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+    margin: 0 0 15px 0;
+    line-height: 30px;
+}
+
+#plan-card-container .plan-description {
+    font-size: 16px;
+    color: #707070;
+    margin: 0;
+    line-height: 28px;
+}
+
+#plan-card-container #plan-food {
+    background-color: #eaffee;
+}
+
+#plan-card-container #plan-shelter {
+    background-color: rgb(252 234 255);
+}
+
+#plan-card-container #plan-education {
+    background-color: #d0e9ff;
+}
+
+
+
+#gallery {
+    padding: 120px 0 0 0;
+    text-align: center;
+}
+
+#gallery h2 {
+    font-size: 48px;
+    margin: 0 0 20px 0;
+}
+
+#gallery p {
+    font-size: 18px;
+    color: #707070;
+    margin: 0 auto 50px auto;
+    width: 50%;
+}
+
+#gallery-container {
+    width: 620px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#gallery-container img {
+    margin: 10px;
+}
+
+
+
+#subsciption {
+    padding: 120px 0 0 0;
+    text-align: center;
+}
+
+#subsciption h2 {
+    font-size: 48px;
+    margin: 0 0 20px 0;
+}
+
+#subsciption p {
+    font-size: 18px;
+    color: #707070;
+    margin: 0 auto 50px auto;
+    width: 50%;
+}
+
+#subsciption form {
+    width: 765px;
+    margin: 0 auto;
+    background-color: #FFF4D6;
+    padding: 70px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#subsciption form input[type=email] {
+    padding: 16px;
+    border: 0;
+    border-top-left-radius: 5px;
+    font-size: 16px;
+    border-bottom-left-radius: 5px;
+}
+
+#subsciption form .button {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 16px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+
+
+
+footer {
+    background-color: #121212;
+    margin: 120px 0 0 0;
+    padding: 45px;
+    text-align: center;
+}
+
+#footer-title {
+    font-size: 36px;
+    font-style: italic;
+    color: #FF5959;
+    margin: 0 0 20px 0;
+    font-weight: 900;
+}
+
+#footer-tag-line {
+    color: #D9DBE1;
+    margin: 0;
+}
